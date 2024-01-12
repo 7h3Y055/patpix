@@ -26,7 +26,7 @@ t_utilis	*init_t_utilis(int argc, char **argv, char **envp)
 	pipex->argc = argc;
 	pipex->argv = argv;
 	pipex->outfile = argv[argc - 1];
-	pipex->outfile_fd = open(pipex->outfile, O_CREAT | O_WRONLY , 0644);
+	pipex->outfile_fd = open(pipex->outfile, O_CREAT | O_WRONLY, 0644);
 	return (pipex);
 }
 

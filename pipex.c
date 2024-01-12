@@ -19,7 +19,7 @@ int	main(int argc, char **argv, char **envp)
 	multi_pipes(pipex);
 	free(pipex);
 	return (0);
-}	
+}
 
 int	multi_pipes(t_utilis *pipex)
 {
